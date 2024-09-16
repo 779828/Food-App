@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practice</title>
+    <style>
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    body{
+        background-color: rgb(66, 80, 80);
+    }
+
+    #ul{
+        border: none;
+        border-radius: 30px;
+        margin-top: 10px;
+        margin-left: 10px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        position: fixed;
+        font-size: 2rem;
+        width: 100%;
+        padding: 20px;
+        background-color: rgb(186, 202, 202);
+        list-style: none;
+        font-style: italic;
+    }
+
+    .div{
+        background: url(library\ background.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 140vh;
+        width: 100%;
+    }
+
+    #demo {
+        position: fixed;
+        border-radius: 20px;
+        padding: 20px;
+        margin-top: 20%;
+        margin-left: 15%;
+        font-size: 2rem;
+        background-color: rgb(182, 161, 201);
+        box-shadow: 0 0 10px rgb(189, 186, 192);
+    }
+
+    #demo:hover{
+        background-color: blanchedalmond;
+        cursor: pointer;
+    }
+    </style>
+    <!-- <link rel="stylesheet" href="practice.css"> -->
+</head>
+<body>
+    <nav>
+        <ul id="ul">
+            <li><a href="home.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+    <div class="div">
+        <button id="demo">Click-Me</button>
+    </div>
+
+    <script>
+        document.getElementById("demo").addEventListener("click", ()=>{
+            window.location.href = "register.html"
+        })
+    </script>
+</body>
+</html>

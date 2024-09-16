@@ -1,0 +1,131 @@
+body{ 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;  
+    background: rgb(87, 10, 74); 
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.fullpage{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.lefthalf img{
+    margin-top: 20px;
+    width: 100%;
+    height: 100%;
+    opacity: .2;
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+    color: blanchedalmond;
+}
+
+h2{
+    color: #cc4d12;
+}
+h2:hover{
+    color: blanchedalmond;
+    cursor: pointer;
+}
+
+.register img{
+    margin-left: 50px;
+    cursor: pointer;
+}
+.register img:hover{
+    transform: rotateY(360deg);
+    transition: transform 2s;
+}
+
+.frm{  
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    color: blanchedalmond;
+    border: solid gray 1px;  
+    width:25%;  
+    border-radius: 10px;  
+    margin: 120px auto;  
+    background: rgb(13, 13, 20);  
+    padding: 40px; 
+    margin-top: 180px;
+    opacity: 0.8;
+    border: none;
+}
+
+.input{
+    border: none;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    padding-top: 2px;
+}
+
+.btn{  
+    color: #fff;  
+    background: #ca0909;  
+    padding: 10px;
+    margin-top: 20px;  
+    margin-left: 35%;  
+    cursor: pointer;
+    border: none;
+    border-radius: 20px;
+}  
+
+.info{
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    font-size: large;
+    font-weight: 900;
+}
+.info a{
+    list-style: none;
+    color: #fff;
+    margin-right: 60px;
+    cursor: pointer;
+}
+.info a:hover{
+    transition: transform 2s;
+    transform: scale(1.5);
+    color: aqua;
+}
+
+.logo{
+    display: flex;
+    margin-top: 10px;
+}
+.logo img {
+    cursor: pointer;
+    border-radius: 10px;
+    margin-right: 20px;
+}
+.logo img:hover {
+    transform: rotateX(360deg);
+    transition: transform 2s;
+}
+
+img{
+    width: 50px;
+    height: 50px;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-around;
+}
+
+p input{
+    opacity: .5;
+}
+
+p label a{
+    color: white;
+}
+

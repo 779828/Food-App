@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="register.css">
+    <title>Registration Form</title>
+</head>
+<body>
+    <header>
+        <nav class="nav">
+            <div class="logo">
+                <img src="logo.jpg">
+                <h2>Hey</h2>
+                <h2>-Buddy</h2>
+            </div>
+            <ul class="info">
+                <a href="home.html">Home</a>
+                <a href="about.html">About</a>
+                <a href="contact.html">Contact</a>
+            </ul>
+        </nav>
+    </header>
+    <div class="fullpage">
+        <div class="lefthalf">
+            <img src="background.jpg">
+        </div>
+        <div class = "frm">
+            <div class="register">
+                <img src="register.jpeg">
+                <h1>Registration</h1>  
+            </div>  
+            <form name="f1" onsubmit = "printInput(event)">  
+                <p class="input">  
+                    <label for="FName"> First Name: </label>  
+                    <input type = "text" id ="fname" name = "FName" required/>  
+                </p>
+                <p class="input">
+                    <label for="LName"> Last Name: </label>
+                    <input type = "text" name="LName" id = "lname" required/>
+                </p>
+                <p class="input">
+                    <label for="EmailId"> Email Id: </label>
+                    <input type = "email" name = "email" id = "email" required/>
+                </p>
+                <p class="input">  
+                    <label> Password: </label>  
+                    <input type = "password" id ="password" name = "pass" required/>  
+                </p>   
+                <input type = "submit" class = "btn" value = "Signup" />  
+                <p>
+                    <label>Already have an Account? <a href="index.html"> Login </a></label>
+                </p>
+            </form>  
+        </div> 
+    </div>
+    <script src="register.js">  
+    </script>   
+</body>
+</html>
